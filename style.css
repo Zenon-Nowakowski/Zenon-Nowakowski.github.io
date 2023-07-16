@@ -9,9 +9,6 @@ section {
     min-height: 100vh;
     text-align: center;
 }
-h1 {
-    font-size: 120px;
-}
 
 .images {
     width: 100px; 
@@ -34,6 +31,10 @@ h1 {
 
 .icons:nth-child(4) {
     transition-delay: 10000ms
+}
+
+h1 {
+    font-size: 120px;
 }
 
 h2 {

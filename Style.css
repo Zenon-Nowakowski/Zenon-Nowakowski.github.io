@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(36, 36, 36);
+    color: #ffffff;
+    padding: 0;
+    margin: auto;
+}
+
+section {
+    min-height: 100vh;
+    text-align: center;
+}
+h1 {
+    font-size: 120px;
+}
+
+.icons {
+    width: 100px; 
+    height: 100px;
+    position: center;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 32px;
+}
+
+.headbackround {
+    background: url(backround.gif);
+    position:center;
+    padding-top: 100px;
+}
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.hiddentop {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translatey(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}

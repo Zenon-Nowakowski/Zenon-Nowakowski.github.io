@@ -11,13 +11,13 @@ section {
 }
 
 .images {
-    width: 2rem; 
-    height: 2rem;
+    width: 5rem; 
+    height: 5rem;
 }
 .icons {
     display: flex;
     margin: auto;
-    width: 7.5%;
+    width: 15%;
 }
 
 .icons:nth-child(2) {

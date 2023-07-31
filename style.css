@@ -16,6 +16,82 @@ section {
     justify-content: center;
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+}
+
+.image0 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    transition-delay: 200ms;
+}
+
+.image1 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    transition-delay: 500ms;
+}
+
+.image2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 9;
+    transition-delay: 1000ms;
+}
+
+.image3 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    transition-delay: 1500ms;
+}
+
+.image4 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    transition-delay: 2200ms;
+}
+
+.image5 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    transition-delay: 3300ms;
+}
+
+.image6 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 9;
+    transition-delay: 200ms;
+}
+
+.flex {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
 .images {
     width: 5rem; 
     height: 5rem;
@@ -30,19 +106,43 @@ section {
 }
 
 .icons:nth-child(4) {
-    transition-delay: 10000ms
+    transition-delay: 1000ms
+}
+
+.point:nth-child(2) {
+    transition-delay: 200ms
+}
+
+.point:nth-child(3) {
+    transition-delay: 500ms
+}
+
+.point:nth-child(4) {
+    transition-delay: 800ms
+}
+
+.point:nth-child(5) {
+    transition-delay: 1200ms
+}
+.point:nth-child(6) {
+    transition-delay: 1900ms
 }
 
 h1 {
-    font-size: 5vw;
+    font-size: 8vw;
 }
 
 h2 {
-    font-size: 3.5vw;
+    font-size: 4vw;
 }
 
 p {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
+}
+
+ul { 
+    font-size: 1.5vw;
+    text-align: left;
 }
 
 .headbackround {
@@ -61,7 +161,14 @@ p {
 .hiddentop {
     opacity: 0;
     filter: blur(10px);
-    transform: translatey(-100%);
+    transform: translateY(-100%);
+    transition: all 1s;
+}
+
+.hiddenright {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
     transition: all 1s;
 }
 
@@ -69,6 +176,15 @@ p {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e88d8d;
 }
 
 html {

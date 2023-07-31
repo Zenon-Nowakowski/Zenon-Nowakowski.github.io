@@ -17,6 +17,7 @@ section {
 .icons {
     display: flex;
     margin: auto;
+    width: 7.5%;
 }
 
 .icons:nth-child(2) {
@@ -32,15 +33,15 @@ section {
 }
 
 h1 {
-    font-size: 5vw;
-}
-
-h2 {
     font-size: 3vw;
 }
 
+h2 {
+    font-size: 2vw;
+}
+
 p {
-    font-size: 1.2vw;
+    font-size: 0.8vw;
 }
 
 .headbackround {

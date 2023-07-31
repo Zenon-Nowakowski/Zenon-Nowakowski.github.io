@@ -31,15 +31,15 @@ section {
 }
 
 .image0 {
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 4;
     transition-delay: 200ms;
 }
 
 .image1 {
-    grid-column-start: 3;
+    grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 4;
@@ -47,7 +47,7 @@ section {
 }
 
 .image2 {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 9;
@@ -92,7 +92,7 @@ section {
     justify-content: center;
 }
 
-.images {
+.icon {
     width: 5rem; 
     height: 5rem;
 }
@@ -129,19 +129,19 @@ section {
 }
 
 h1 {
-    font-size: 8vw;
+    font-size: 8rem;
 }
 
 h2 {
-    font-size: 4vw;
+    font-size: 5rem;
 }
 
 p {
-    font-size: 1.5vw;
+    font-size: 2rem;
 }
 
 ul { 
-    font-size: 1.5vw;
+    font-size: 2rem;
     text-align: left;
 }
 

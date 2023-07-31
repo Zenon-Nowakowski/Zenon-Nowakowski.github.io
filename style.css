@@ -10,14 +10,15 @@ section {
     text-align: center;
 }
 
+.icons {
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+}
+
 .images {
     width: 5rem; 
     height: 5rem;
-}
-.icons {
-    display: flex;
-    margin: auto;
-    width: 15%;
 }
 
 .icons:nth-child(2) {
@@ -33,15 +34,15 @@ section {
 }
 
 h1 {
-    font-size: 3vw;
+    font-size: 5vw;
 }
 
 h2 {
-    font-size: 2vw;
+    font-size: 3.5vw;
 }
 
 p {
-    font-size: 0.8vw;
+    font-size: 1.2vw;
 }
 
 .headbackround {

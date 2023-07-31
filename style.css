@@ -189,6 +189,7 @@ a:visited {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
 @media(prefers-reduced-motion) {
